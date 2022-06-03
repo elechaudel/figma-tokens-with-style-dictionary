@@ -24,7 +24,7 @@ In the end, Token Transformer helps us remove any aliases that would result in e
 
 At Apart, our tokens follow a multi-layers approach.
 
-| Layer | Layers | Description |
+| Layer | Layer name | Description |
 |---|---|---|
 | 1 | Core<br>(private tokens) | Tokens in this Layer store the raw values and with this build the basis of the Design Tokens. This Layer is mainly responsible for the look of the final product by defining all the values that can be used. |
 | 2 | Semantic<br>(public tokens) | Tokens in this Layer reference Core Tokens. Their name describes the intended use of the Token. Tokens in this Layer are those which are used the most throughout the application. They represent the choices the Design team made in regards to when to use which Token. |
