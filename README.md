@@ -97,9 +97,9 @@ If your tokens are sync and stored somewhere, maybe you can automate a flow and 
 
 ### Step 2 - Transform your tokens with Token Transformer
 
-With your tokens.json file available locally in your project you can run the ```transform-tokens``` command. This command expect your ```tokens.json``` file to be under a tokens directory at the root of your project: ```tokens/tokens.json```.
+With your ```tokens.json``` file available locally in your project you can run the ```transform-tokens``` command. This command expect your ```tokens.json``` file to be under a tokens directory at the root of your project: ```tokens/tokens.json```.
 
-This command will generate a transformed-tokens directory with a tokens.json file inside.
+This command will generate a ```transformed-tokens``` directory with a ```tokens.json``` file inside.
 
 ### Step 3 - Compile your tokens with Style Dictionary
 
