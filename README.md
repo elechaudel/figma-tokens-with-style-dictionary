@@ -7,6 +7,7 @@ This repository serves as an example to illustrate how you can locally transform
 1. [Why the need for Token Transformer?](#why-the-need-for-token-transformer)
 2. [Tokens Structure](#tokens-structure)
 3. [How to use this project in 3 steps](#how-to-use-this-project-in-3-steps)
+4. [Other considerations](#other-considerations)
 
 ---
 
@@ -110,3 +111,9 @@ This command will generate a ```build``` directory with the output results confi
 For example, the default configuration integrated to this project will generate a ```_variables.sass``` file.
 
 For more information, see [Style Dictionary configuration options](https://amzn.github.io/style-dictionary/#/config).
+
+## Other considerations
+
+### Use transformers to get unit formats
+
+By using this project without any additional Style Dictionary configuration you might end up with font, size or shadows properties without unit formats like %, em, px, ... You can use transformers to do that at build time. Read this [github thread](https://github.com/six7/figma-tokens/issues/703#issuecomment-1130246775) for more information.
