@@ -66,7 +66,7 @@ Token Transformer generates a tokens file that get rid off any math operations o
 // ./transformed-tokens/tokens.json
 {
     "core": {...},
-    // List of all the basic token groups you make use of:
+    // List of all the basic public tokens you make use of organized by family:
     "font": {...},
     "color": {...},
     "space": {...},
