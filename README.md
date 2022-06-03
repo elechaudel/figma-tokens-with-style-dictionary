@@ -4,9 +4,9 @@ This repository serves as an example to illustrate how you can locally transform
 
 ---
 
-[1. Why the need for Token Transformer?](#why-the-need-for-token-transformer)
-[2. Tokens Structure](#tokens-structure)
-[3. How to use this project in 3 steps](#how-to-use-this-project-in-3-steps)
+1. [Why the need for Token Transformer?](#why-the-need-for-token-transformer)
+2. [Tokens Structure](#tokens-structure)
+3. [How to use this project in 3 steps](#how-to-use-this-project-in-3-steps)
 
 ---
 
