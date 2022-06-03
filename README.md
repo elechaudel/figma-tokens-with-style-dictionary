@@ -3,9 +3,11 @@
 This repository serves as an example to illustrate how you can locally transform your tokens stored on [Figma Tokens](https://docs.tokens.studio/) so they are up and ready for [Style Dictionary](https://amzn.github.io/style-dictionary/#/) to compile.
 
 ---
+
 [1. Why the need for Token Transformer?](#why-the-need-for-token-transformer)
 [2. Tokens Structure](#tokens-structure)
 [3. How to use this project in 3 steps](#how-to-use-this-project-in-3-steps)
+
 ---
 
 First of all, let me begin with why we need [Token Transformer](https://www.npmjs.com/package/token-transformer) in the first place.
@@ -42,10 +44,10 @@ A third Token Set can also co-exist but is not useful for developers: ```mobile-
 
 ### Tokens structure after Figma Tokens file export
 
-Figma Tokens generates for you a single file with all your tokens organised by Token Set. The exported file should look something like this.
+Figma Tokens generates for you a single file with all your tokens organised by Token Set. The exported file should look something like this:
 
 ```jsonc
-// tokens.json
+// ./tokens/tokens.json
 {
     "core": {...},
     "public": {...}
@@ -61,7 +63,7 @@ With this file, references between public tokens and core tokens do not work out
 Token Transformer generates a tokens file that get rid off any math operations or aliases only resulting in raw values. Your transformed tokens file should look something like this:
 
 ```jsonc
-// transformed-tokens.json
+// ./transformed-tokens/tokens.json
 {
     "core": {...},
     // List of all the basic token groups you make use of:
@@ -106,3 +108,5 @@ Define whatever you want Style Dictionary to do with your tokens in the ```sd.co
 This command will generate a ```build``` directory with the output results configured in your Style Dictionary config file: ```sd.config.json```.
 
 For example, the default configuration integrated to this project will generate a ```_variables.sass``` file.
+
+For more information, see [Style Dictionary configuration options](https://amzn.github.io/style-dictionary/#/config).
