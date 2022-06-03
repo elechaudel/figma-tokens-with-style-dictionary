@@ -1,12 +1,18 @@
 # Use Figma Tokens Plugin with Style Dictionary
 
-This repository serves as an example to illustrate how you can locally transform your tokens stored on Figma Tokens so they are up and ready for Style Dictionary to compile.
+This repository serves as an example to illustrate how you can locally transform your tokens stored on [Figma Tokens](https://docs.tokens.studio/) so they are up and ready for [Style Dictionary](https://amzn.github.io/style-dictionary/#/) to compile.
+
+---
+[1. Why the need for Token Transformer?](#why-the-need-for-token-transformer)
+[2. Tokens Structure](#tokens-structure)
+[3. How to use this project in 3 steps](#how-to-use-this-project-in-3-steps)
+---
 
 First of all, let me begin with why we need [Token Transformer](https://www.npmjs.com/package/token-transformer) in the first place.
 
-## Why Token Transformer?
+## Why the need for Token Transformer?
 
-The short answer is: The way tokens are referenced across Token Sets in the Figma Plugin is not reflected in the Token Keys after tokens are exported. This results in Style Dictionary not being able to retrieve the token references.
+**The short answer is:** The way tokens are referenced across Token Sets in the Figma Plugin is not reflected in the Token Keys after tokens are exported. This results in Style Dictionary not being able to retrieve the token references.
 
 For more information, please read this [thread on Github](https://github.com/six7/figma-tokens/issues/691#issuecomment-1144889277) and the [suggested workflow by @jam-awake](https://github.com/six7/figma-tokens/issues/691#issuecomment-1144984836).
 
@@ -29,16 +35,14 @@ for more information read our [Design Tokens Guide](https://docs.google.com/docu
 To replicate this layers structure in the Figma Tokens Plugin we use [Token Sets](https://docs.tokens.studio/themes/token-sets). A feature that allows us to semantically separate tokens and keep having the ability to make references (aliases) between them.
 
 In a basic setup, we usually end up with two main Token Sets:
-- Core (all the private tokens)
-- Public (all the semantic and component tokens that reference core tokens)
+- ```core``` (all the private tokens)
+- ```public``` (all the semantic and component tokens that reference core tokens)
 
-A third Token Set can also co-exist but is not useful for developers: mobile-overrides. This Token Set can be ignored. This is for design purposes only.
+A third Token Set can also co-exist but is not useful for developers: ```mobile-overrides```. This Token Set can be ignored. This is for design purposes only.
 
 ### Tokens structure after Figma Tokens file export
 
 Figma Tokens generates for you a single file with all your tokens organised by Token Set. The exported file should look something like this.
-
-(At export, check "All Token Sets", "Expand Typography" and "Expand Shadows")
 
 ```jsonc
 // tokens.json
@@ -60,7 +64,7 @@ Token Transformer generates a tokens file that get rid off any math operations o
 // transformed-tokens.json
 {
     "core": {...},
-    // List of all the basic token groups you make use of
+    // List of all the basic token groups you make use of:
     "font": {...},
     "color": {...},
     "space": {...},
@@ -87,18 +91,18 @@ If your tokens are not sync anywhere:
 5. Check "Expand Typography" and "Expand Shadows"
 6. Click download and name your file tokens.json
 
-If your tokens are sync and stored somewhere, maybe you can automate a flow and query this file at build time.
+If your tokens are sync and stored somewhere, maybe you can automate a flow and query this file at build time (this workflow is not documented here).
 
 ### Step 2 - Transform your tokens with Token Transformer
 
-With your tokens.json file available locally in your project you can run the ````transform-tokens``` command. This command expect your tokens.json file to be under a tokens directory at the root of your project: ```tokens/tokens.json```.
+With your tokens.json file available locally in your project you can run the ```transform-tokens``` command. This command expect your ```tokens.json``` file to be under a tokens directory at the root of your project: ```tokens/tokens.json```.
 
 This command will generate a transformed-tokens directory with a tokens.json file inside.
 
 ### Step 3 - Compile your tokens with Style Dictionary
 
-Define whatever you want Style Dictionary to do with your tokens in the sd.config.json file. Then, you can run the ```style-dictionary``` command. This command expect your transformed tokens to be in the transformed-tokens directory: ```transformed-tokens.json```.
+Define whatever you want Style Dictionary to do with your tokens in the ```sd.config.json``` file. Then, you can run the ```style-dictionary``` command. This command expect your transformed tokens to be in the ```transformed-tokens``` directory: ```transformed-tokens/tokens.json```.
 
-This command will generate a build directory with the output results configured in your Style Dictionary config file: ```sd.config.json```.
+This command will generate a ```build``` directory with the output results configured in your Style Dictionary config file: ```sd.config.json```.
 
-The default configuration integrated to this project will generate a ```_variables.sass``` file.
+For example, the default configuration integrated to this project will generate a ```_variables.sass``` file.
