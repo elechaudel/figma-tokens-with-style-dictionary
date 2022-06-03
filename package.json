@@ -1,0 +1,21 @@
+{
+    "name": "figma-tokens",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "files": [
+        "build",
+        "properties"
+    ],
+    "scripts": {
+        "style-dictionary": "style-dictionary build --config sd.config.json",
+        "transform-tokens": "token-transformer ./tokens/tokens.json transformed-tokens/tokens.json",
+        "clean": "rm -rf build transformed-tokens"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "style-dictionary": "^3.7.0",
+        "token-transformer": "^0.0.23"
+    }
+}
