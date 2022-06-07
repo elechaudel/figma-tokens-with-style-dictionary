@@ -19,7 +19,7 @@ First of all, let me begin with why we need [Token Transformer](https://www.npmj
 
 For more information, please read this [thread on Github](https://github.com/six7/figma-tokens/issues/691#issuecomment-1144889277) and the [suggested workflow by @jam-awake](https://github.com/six7/figma-tokens/issues/691#issuecomment-1144984836).
 
-In the end, Token Transformer helps us remove any aliases that would result in errors during the Style Dictionary build. Token Transformer prepare a file that only output raw values that Style Dictionary can process.
+In the end, Token Transformer helps us remove any aliases that would result in errors during the Style Dictionary build. Token Transformer prepares a file that only output raw values that Style Dictionary can process.
 
 ## Tokens Structure
 
@@ -27,9 +27,9 @@ At Apart, our tokens follow a multi-layers approach.
 
 | Layer | Layer name | Description |
 |---|---|---|
-| 1 | Core<br>(private tokens) | Tokens in this Layer store the raw values and with this build the basis of the Design Tokens. This Layer is mainly responsible for the look of the final product by defining all the values that can be used. |
-| 2 | Semantic<br>(public tokens) | Tokens in this Layer reference Core Tokens. Their name describes the intended use of the Token. Tokens in this Layer are those which are used the most throughout the application. They represent the choices the Design team made in regards to when to use which Token. |
-| 3 | Component<br>(scoped and overwrite tokens) | Tokens in this Layer reference Semantic Tokens and tie them to a specific Component value. A Component Token abstracts the value of a Semantic Token for use in a specific context or for a specific purpose. The name of the Component Token makes it clear where and how it applies. |
+| 1 | Core<br>_(private tokens)_ | Tokens in this Layer store the raw values and with this build the basis of the Design Tokens. This Layer is mainly responsible for the look of the final product by defining all the values that can be used. |
+| 2 | Semantic<br>_(public tokens)_ | Tokens in this Layer reference Core Tokens. Their name describes the intended use of the Token. Tokens in this Layer are those which are used the most throughout the application. They represent the choices the Design team made in regards to when to use which Token. |
+| 3 | Component<br>_(scoped and overwrite tokens)_ | Tokens in this Layer reference Semantic Tokens and tie them to a specific Component value. A Component Token abstracts the value of a Semantic Token for use in a specific context or for a specific purpose. The name of the Component Token makes it clear where and how it applies. |
 
 for more information read our [Design Tokens Guide](https://docs.google.com/document/d/1riMIYd7VIVZzHqp4x13GQ_DD3lg0E2YxrzpykbVkE9I/).
 
@@ -83,6 +83,8 @@ Token Transformer generates a tokens file that get rid off any math operations o
 From there, you can use this file for your Style Dictionary build.
 
 ## How to use this project in 3 steps
+
+_Do not forget to run ```npm i``` to install all dependencies first._
 
 ### Step 1 - Export your tokens from the Figma Tokens Plugin
 
