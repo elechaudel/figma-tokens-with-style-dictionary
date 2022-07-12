@@ -110,7 +110,7 @@ Define whatever you want Style Dictionary to do with your tokens in the ```sd.co
 
 This command will generate a ```build``` directory with the output results configured in your Style Dictionary config file: ```sd.config.json```.
 
-For example, the default configuration integrated to this project will generate a ```_variables.sass``` file and a ```variables.js```file.
+For example, the default configuration integrated to this project will generate a ```_variables.sass``` file and a ```variables.js``` file.
 
 For more information, see [Style Dictionary configuration options](https://amzn.github.io/style-dictionary/#/config).
 
