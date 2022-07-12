@@ -1,0 +1,1647 @@
+
+/**
+ * Do not edit directly
+ * Generated on Tue, 12 Jul 2022 14:25:22 GMT
+ */
+
+$font-size-base-min: 16 !default;
+$font-size-base-max: 18 !default;
+$font-line-height-body-text: 140% !default;
+$font-line-height-helper-text: 110% !default;
+$font-line-height-heading: 130% !default;
+$font-family-sans: Soleil !default;
+$font-family-text: Soleil !default;
+$font-family-heading: Soleil !default;
+$font-weight-regular: Regular !default;
+$font-weight-semi-bold: Semibold !default;
+$font-weight-bold: Bold !default;
+$font-letter-spacing-base: 0 !default;
+$font-paragraph-spacing-base: 0 !default;
+$font-text-decoration-none: none !default;
+$font-text-case-none: none !default;
+$font-scale-base-min: 1.125 !default;
+$font-scale-base-max: 1.2 !default;
+$font-scale-range-0: 1 !default;
+$font-scale-range-up-1: 1.125 !default;
+$font-scale-range-up-2: 1.266 !default;
+$font-scale-range-up-3: 1.424 !default;
+$font-scale-range-up-4: 1.602 !default;
+$font-scale-range-up-5: 1.802 !default;
+$font-scale-range-down-1: 0.889 !default;
+$font-scale-range-down-2: 0.79 !default;
+$font-scale-range-down-3: 0.702 !default;
+$font-mobile-body-text-regular-default-font-family: Soleil !default;
+$font-mobile-body-text-regular-default-font-weight: Regular !default;
+$font-mobile-body-text-regular-default-line-height: 140% !default;
+$font-mobile-body-text-regular-default-font-size: 16 !default;
+$font-mobile-body-text-regular-default-letter-spacing: 0 !default;
+$font-mobile-body-text-regular-default-paragraph-spacing: 0 !default;
+$font-mobile-body-text-regular-default-text-decoration: none !default;
+$font-mobile-body-text-regular-default-text-case: none !default;
+$font-mobile-body-text-regular-small-font-family: Soleil !default;
+$font-mobile-body-text-regular-small-font-weight: Regular !default;
+$font-mobile-body-text-regular-small-line-height: 140% !default;
+$font-mobile-body-text-regular-small-font-size: 14.224 !default;
+$font-mobile-body-text-regular-small-letter-spacing: 0 !default;
+$font-mobile-body-text-regular-small-paragraph-spacing: 0 !default;
+$font-mobile-body-text-regular-small-text-decoration: none !default;
+$font-mobile-body-text-regular-small-text-case: none !default;
+$font-mobile-body-text-regular-large-font-family: Soleil !default;
+$font-mobile-body-text-regular-large-font-weight: Regular !default;
+$font-mobile-body-text-regular-large-line-height: 140% !default;
+$font-mobile-body-text-regular-large-font-size: 18 !default;
+$font-mobile-body-text-regular-large-letter-spacing: 0 !default;
+$font-mobile-body-text-regular-large-paragraph-spacing: 0 !default;
+$font-mobile-body-text-regular-large-text-decoration: none !default;
+$font-mobile-body-text-regular-large-text-case: none !default;
+$font-mobile-body-text-semi-bold-default-font-family: Soleil !default;
+$font-mobile-body-text-semi-bold-default-font-weight: Semibold !default;
+$font-mobile-body-text-semi-bold-default-line-height: 140% !default;
+$font-mobile-body-text-semi-bold-default-font-size: 16 !default;
+$font-mobile-body-text-semi-bold-default-letter-spacing: 0 !default;
+$font-mobile-body-text-semi-bold-default-paragraph-spacing: 0 !default;
+$font-mobile-body-text-semi-bold-default-text-decoration: none !default;
+$font-mobile-body-text-semi-bold-default-text-case: none !default;
+$font-mobile-body-text-semi-bold-small-font-family: Soleil !default;
+$font-mobile-body-text-semi-bold-small-font-weight: Semibold !default;
+$font-mobile-body-text-semi-bold-small-line-height: 140% !default;
+$font-mobile-body-text-semi-bold-small-font-size: 14.224 !default;
+$font-mobile-body-text-semi-bold-small-letter-spacing: 0 !default;
+$font-mobile-body-text-semi-bold-small-paragraph-spacing: 0 !default;
+$font-mobile-body-text-semi-bold-small-text-decoration: none !default;
+$font-mobile-body-text-semi-bold-small-text-case: none !default;
+$font-mobile-body-text-semi-bold-large-font-family: Soleil !default;
+$font-mobile-body-text-semi-bold-large-font-weight: Semibold !default;
+$font-mobile-body-text-semi-bold-large-line-height: 140% !default;
+$font-mobile-body-text-semi-bold-large-font-size: 18 !default;
+$font-mobile-body-text-semi-bold-large-letter-spacing: 0 !default;
+$font-mobile-body-text-semi-bold-large-paragraph-spacing: 0 !default;
+$font-mobile-body-text-semi-bold-large-text-decoration: none !default;
+$font-mobile-body-text-semi-bold-large-text-case: none !default;
+$font-mobile-heading-1-font-family: Soleil !default;
+$font-mobile-heading-1-font-weight: Semibold !default;
+$font-mobile-heading-1-line-height: 130% !default;
+$font-mobile-heading-1-font-size: 28.832 !default;
+$font-mobile-heading-1-letter-spacing: 0 !default;
+$font-mobile-heading-1-paragraph-spacing: 0 !default;
+$font-mobile-heading-1-text-decoration: none !default;
+$font-mobile-heading-1-text-case: none !default;
+$font-mobile-heading-2-font-family: Soleil !default;
+$font-mobile-heading-2-font-weight: Semibold !default;
+$font-mobile-heading-2-line-height: 130% !default;
+$font-mobile-heading-2-font-size: 25.632 !default;
+$font-mobile-heading-2-letter-spacing: 0 !default;
+$font-mobile-heading-2-paragraph-spacing: 0 !default;
+$font-mobile-heading-2-text-decoration: none !default;
+$font-mobile-heading-2-text-case: none !default;
+$font-mobile-heading-3-font-family: Soleil !default;
+$font-mobile-heading-3-font-weight: Semibold !default;
+$font-mobile-heading-3-line-height: 130% !default;
+$font-mobile-heading-3-font-size: 22.784 !default;
+$font-mobile-heading-3-letter-spacing: 0 !default;
+$font-mobile-heading-3-paragraph-spacing: 0 !default;
+$font-mobile-heading-3-text-decoration: none !default;
+$font-mobile-heading-3-text-case: none !default;
+$font-mobile-heading-4-font-family: Soleil !default;
+$font-mobile-heading-4-font-weight: Semibold !default;
+$font-mobile-heading-4-line-height: 130% !default;
+$font-mobile-heading-4-font-size: 20.256 !default;
+$font-mobile-heading-4-letter-spacing: 0 !default;
+$font-mobile-heading-4-paragraph-spacing: 0 !default;
+$font-mobile-heading-4-text-decoration: none !default;
+$font-mobile-heading-4-text-case: none !default;
+$font-mobile-heading-5-font-family: Soleil !default;
+$font-mobile-heading-5-font-weight: Semibold !default;
+$font-mobile-heading-5-line-height: 130% !default;
+$font-mobile-heading-5-font-size: 18 !default;
+$font-mobile-heading-5-letter-spacing: 0 !default;
+$font-mobile-heading-5-paragraph-spacing: 0 !default;
+$font-mobile-heading-5-text-decoration: none !default;
+$font-mobile-heading-5-text-case: none !default;
+$font-mobile-helper-text-regular-default-font-family: Soleil !default;
+$font-mobile-helper-text-regular-default-font-weight: Regular !default;
+$font-mobile-helper-text-regular-default-line-height: 110% !default;
+$font-mobile-helper-text-regular-default-font-size: 16 !default;
+$font-mobile-helper-text-regular-default-letter-spacing: 0 !default;
+$font-mobile-helper-text-regular-default-paragraph-spacing: 0 !default;
+$font-mobile-helper-text-regular-default-text-decoration: none !default;
+$font-mobile-helper-text-regular-default-text-case: none !default;
+$font-mobile-helper-text-regular-small-font-family: Soleil !default;
+$font-mobile-helper-text-regular-small-font-weight: Regular !default;
+$font-mobile-helper-text-regular-small-line-height: 110% !default;
+$font-mobile-helper-text-regular-small-font-size: 14.224 !default;
+$font-mobile-helper-text-regular-small-letter-spacing: 0 !default;
+$font-mobile-helper-text-regular-small-paragraph-spacing: 0 !default;
+$font-mobile-helper-text-regular-small-text-decoration: none !default;
+$font-mobile-helper-text-regular-small-text-case: none !default;
+$font-mobile-helper-text-regular-large-font-family: Soleil !default;
+$font-mobile-helper-text-regular-large-font-weight: Regular !default;
+$font-mobile-helper-text-regular-large-line-height: 110% !default;
+$font-mobile-helper-text-regular-large-font-size: 18 !default;
+$font-mobile-helper-text-regular-large-letter-spacing: 0 !default;
+$font-mobile-helper-text-regular-large-paragraph-spacing: 0 !default;
+$font-mobile-helper-text-regular-large-text-decoration: none !default;
+$font-mobile-helper-text-regular-large-text-case: none !default;
+$font-mobile-helper-text-semi-bold-default-font-family: Soleil !default;
+$font-mobile-helper-text-semi-bold-default-font-weight: Semibold !default;
+$font-mobile-helper-text-semi-bold-default-line-height: 110% !default;
+$font-mobile-helper-text-semi-bold-default-font-size: 16 !default;
+$font-mobile-helper-text-semi-bold-default-letter-spacing: 0 !default;
+$font-mobile-helper-text-semi-bold-default-paragraph-spacing: 0 !default;
+$font-mobile-helper-text-semi-bold-default-text-decoration: none !default;
+$font-mobile-helper-text-semi-bold-default-text-case: none !default;
+$font-mobile-helper-text-semi-bold-small-font-family: Soleil !default;
+$font-mobile-helper-text-semi-bold-small-font-weight: Semibold !default;
+$font-mobile-helper-text-semi-bold-small-line-height: 110% !default;
+$font-mobile-helper-text-semi-bold-small-font-size: 14.224 !default;
+$font-mobile-helper-text-semi-bold-small-letter-spacing: 0 !default;
+$font-mobile-helper-text-semi-bold-small-paragraph-spacing: 0 !default;
+$font-mobile-helper-text-semi-bold-small-text-decoration: none !default;
+$font-mobile-helper-text-semi-bold-small-text-case: none !default;
+$font-mobile-helper-text-semi-bold-large-font-family: Soleil !default;
+$font-mobile-helper-text-semi-bold-large-font-weight: Semibold !default;
+$font-mobile-helper-text-semi-bold-large-line-height: 110% !default;
+$font-mobile-helper-text-semi-bold-large-font-size: 18 !default;
+$font-mobile-helper-text-semi-bold-large-letter-spacing: 0 !default;
+$font-mobile-helper-text-semi-bold-large-paragraph-spacing: 0 !default;
+$font-mobile-helper-text-semi-bold-large-text-decoration: none !default;
+$font-mobile-helper-text-semi-bold-large-text-case: none !default;
+$font-body-text-regular-default-font-family: Soleil !default;
+$font-body-text-regular-default-font-weight: Regular !default;
+$font-body-text-regular-default-line-height: 140% !default;
+$font-body-text-regular-default-font-size: 18 !default;
+$font-body-text-regular-default-letter-spacing: 0 !default;
+$font-body-text-regular-default-paragraph-spacing: 0 !default;
+$font-body-text-regular-default-text-decoration: none !default;
+$font-body-text-regular-default-text-case: none !default;
+$font-body-text-regular-small-font-family: Soleil !default;
+$font-body-text-regular-small-font-weight: Regular !default;
+$font-body-text-regular-small-line-height: 140% !default;
+$font-body-text-regular-small-font-size: 16.002 !default;
+$font-body-text-regular-small-letter-spacing: 0 !default;
+$font-body-text-regular-small-paragraph-spacing: 0 !default;
+$font-body-text-regular-small-text-decoration: none !default;
+$font-body-text-regular-small-text-case: none !default;
+$font-body-text-regular-large-font-family: Soleil !default;
+$font-body-text-regular-large-font-weight: Regular !default;
+$font-body-text-regular-large-line-height: 140% !default;
+$font-body-text-regular-large-font-size: 20.25 !default;
+$font-body-text-regular-large-letter-spacing: 0 !default;
+$font-body-text-regular-large-paragraph-spacing: 0 !default;
+$font-body-text-regular-large-text-decoration: none !default;
+$font-body-text-regular-large-text-case: none !default;
+$font-body-text-semi-bold-default-font-family: Soleil !default;
+$font-body-text-semi-bold-default-font-weight: Semibold !default;
+$font-body-text-semi-bold-default-line-height: 140% !default;
+$font-body-text-semi-bold-default-font-size: 18 !default;
+$font-body-text-semi-bold-default-letter-spacing: 0 !default;
+$font-body-text-semi-bold-default-paragraph-spacing: 0 !default;
+$font-body-text-semi-bold-default-text-decoration: none !default;
+$font-body-text-semi-bold-default-text-case: none !default;
+$font-body-text-semi-bold-small-font-family: Soleil !default;
+$font-body-text-semi-bold-small-font-weight: Semibold !default;
+$font-body-text-semi-bold-small-line-height: 140% !default;
+$font-body-text-semi-bold-small-font-size: 16.002 !default;
+$font-body-text-semi-bold-small-letter-spacing: 0 !default;
+$font-body-text-semi-bold-small-paragraph-spacing: 0 !default;
+$font-body-text-semi-bold-small-text-decoration: none !default;
+$font-body-text-semi-bold-small-text-case: none !default;
+$font-body-text-semi-bold-large-font-family: Soleil !default;
+$font-body-text-semi-bold-large-font-weight: Semibold !default;
+$font-body-text-semi-bold-large-line-height: 140% !default;
+$font-body-text-semi-bold-large-font-size: 20.25 !default;
+$font-body-text-semi-bold-large-letter-spacing: 0 !default;
+$font-body-text-semi-bold-large-paragraph-spacing: 0 !default;
+$font-body-text-semi-bold-large-text-decoration: none !default;
+$font-body-text-semi-bold-large-text-case: none !default;
+$font-heading-1-font-family: Soleil !default;
+$font-heading-1-font-weight: Semibold !default;
+$font-heading-1-line-height: 130% !default;
+$font-heading-1-font-size: 32.436 !default;
+$font-heading-1-letter-spacing: 0 !default;
+$font-heading-1-paragraph-spacing: 0 !default;
+$font-heading-1-text-decoration: none !default;
+$font-heading-1-text-case: none !default;
+$font-heading-2-font-family: Soleil !default;
+$font-heading-2-font-weight: Semibold !default;
+$font-heading-2-line-height: 130% !default;
+$font-heading-2-font-size: 28.836 !default;
+$font-heading-2-letter-spacing: 0 !default;
+$font-heading-2-paragraph-spacing: 0 !default;
+$font-heading-2-text-decoration: none !default;
+$font-heading-2-text-case: none !default;
+$font-heading-3-font-family: Soleil !default;
+$font-heading-3-font-weight: Semibold !default;
+$font-heading-3-line-height: 130% !default;
+$font-heading-3-font-size: 25.632 !default;
+$font-heading-3-letter-spacing: 0 !default;
+$font-heading-3-paragraph-spacing: 0 !default;
+$font-heading-3-text-decoration: none !default;
+$font-heading-3-text-case: none !default;
+$font-heading-4-font-family: Soleil !default;
+$font-heading-4-font-weight: Semibold !default;
+$font-heading-4-line-height: 130% !default;
+$font-heading-4-font-size: 22.788 !default;
+$font-heading-4-letter-spacing: 0 !default;
+$font-heading-4-paragraph-spacing: 0 !default;
+$font-heading-4-text-decoration: none !default;
+$font-heading-4-text-case: none !default;
+$font-heading-5-font-family: Soleil !default;
+$font-heading-5-font-weight: Semibold !default;
+$font-heading-5-line-height: 130% !default;
+$font-heading-5-font-size: 20.25 !default;
+$font-heading-5-letter-spacing: 0 !default;
+$font-heading-5-paragraph-spacing: 0 !default;
+$font-heading-5-text-decoration: none !default;
+$font-heading-5-text-case: none !default;
+$font-helper-text-regular-default-font-family: Soleil !default;
+$font-helper-text-regular-default-font-weight: Regular !default;
+$font-helper-text-regular-default-line-height: 110% !default;
+$font-helper-text-regular-default-font-size: 18 !default;
+$font-helper-text-regular-default-letter-spacing: 0 !default;
+$font-helper-text-regular-default-paragraph-spacing: 0 !default;
+$font-helper-text-regular-default-text-decoration: none !default;
+$font-helper-text-regular-default-text-case: none !default;
+$font-helper-text-regular-small-font-family: Soleil !default;
+$font-helper-text-regular-small-font-weight: Regular !default;
+$font-helper-text-regular-small-line-height: 110% !default;
+$font-helper-text-regular-small-font-size: 16.002 !default;
+$font-helper-text-regular-small-letter-spacing: 0 !default;
+$font-helper-text-regular-small-paragraph-spacing: 0 !default;
+$font-helper-text-regular-small-text-decoration: none !default;
+$font-helper-text-regular-small-text-case: none !default;
+$font-helper-text-regular-large-font-family: Soleil !default;
+$font-helper-text-regular-large-font-weight: Regular !default;
+$font-helper-text-regular-large-line-height: 110% !default;
+$font-helper-text-regular-large-font-size: 20.25 !default;
+$font-helper-text-regular-large-letter-spacing: 0 !default;
+$font-helper-text-regular-large-paragraph-spacing: 0 !default;
+$font-helper-text-regular-large-text-decoration: none !default;
+$font-helper-text-regular-large-text-case: none !default;
+$font-helper-text-semi-bold-default-font-family: Soleil !default;
+$font-helper-text-semi-bold-default-font-weight: Semibold !default;
+$font-helper-text-semi-bold-default-line-height: 110% !default;
+$font-helper-text-semi-bold-default-font-size: 18 !default;
+$font-helper-text-semi-bold-default-letter-spacing: 0 !default;
+$font-helper-text-semi-bold-default-paragraph-spacing: 0 !default;
+$font-helper-text-semi-bold-default-text-decoration: none !default;
+$font-helper-text-semi-bold-default-text-case: none !default;
+$font-helper-text-semi-bold-small-font-family: Soleil !default;
+$font-helper-text-semi-bold-small-font-weight: Semibold !default;
+$font-helper-text-semi-bold-small-line-height: 110% !default;
+$font-helper-text-semi-bold-small-font-size: 16.002 !default;
+$font-helper-text-semi-bold-small-letter-spacing: 0 !default;
+$font-helper-text-semi-bold-small-paragraph-spacing: 0 !default;
+$font-helper-text-semi-bold-small-text-decoration: none !default;
+$font-helper-text-semi-bold-small-text-case: none !default;
+$font-helper-text-semi-bold-large-font-family: Soleil !default;
+$font-helper-text-semi-bold-large-font-weight: Semibold !default;
+$font-helper-text-semi-bold-large-line-height: 110% !default;
+$font-helper-text-semi-bold-large-font-size: 20.25 !default;
+$font-helper-text-semi-bold-large-letter-spacing: 0 !default;
+$font-helper-text-semi-bold-large-paragraph-spacing: 0 !default;
+$font-helper-text-semi-bold-large-text-decoration: none !default;
+$font-helper-text-semi-bold-large-text-case: none !default;
+$color-black: #18141F !default;
+$color-white: #ffffff !default;
+$color-gray-100: #F8F6FD !default;
+$color-gray-200: #EFE7F8 !default;
+$color-gray-300: #DBCEF0 !default;
+$color-gray-400: #B7A2D8 !default;
+$color-gray-500: #957EBA !default;
+$color-gray-600: #6D5B89 !default;
+$color-gray-700: #483D59 !default;
+$color-error-100: #FDF4F4 !default;
+$color-error-200: #F5BCBE !default;
+$color-error-300: #ED8E93 !default;
+$color-error-500: #dc1e27 !default;
+$color-error-600: #A5161D !default;
+$color-error-800: #6E0F14 !default;
+$color-error-default: #dc1e27 !default;
+$color-error-hovered: #A5161D !default;
+$color-error-focused: #A5161D !default;
+$color-error-disabled: #ED8E93 !default;
+$color-success-100: #F4F9F5 !default;
+$color-success-200: #BAD9C3 !default;
+$color-success-300: #8CBF9B !default;
+$color-success-500: #198038 !default;
+$color-success-600: #13602A !default;
+$color-success-800: #0F4D22 !default;
+$color-success-default: #198038 !default;
+$color-success-hovered: #13602A !default;
+$color-success-focused: #13602A !default;
+$color-success-disabled: #8CBF9B !default;
+$color-warning-100: #FFF9F4 !default;
+$color-warning-200: #FFDABF !default;
+$color-warning-300: #FFC094 !default;
+$color-warning-500: #ff8229 !default;
+$color-warning-600: #BF611F !default;
+$color-warning-800: #994E19 !default;
+$color-warning-default: #ff8229 !default;
+$color-warning-hovered: #BF611F !default;
+$color-warning-focused: #BF611F !default;
+$color-warning-disabled: #FFC094 !default;
+$color-info-100: #FFFCF0 !default;
+$color-info-200: #FEF3CA !default;
+$color-info-300: #FEECA9 !default;
+$color-info-500: #fddd68 !default;
+$color-info-600: #BEA64E !default;
+$color-info-800: #98853E !default;
+$color-info-default: #fddd68 !default;
+$color-info-focused: #BEA64E !default;
+$color-info-hovered: #BEA64E !default;
+$color-info-disabled: #FEECA9 !default;
+$color-brand-100: #F8F6FD !default;
+$color-brand-200: #EDE3FC !default;
+$color-brand-300: #D6BEF9 !default;
+$color-brand-500: #A573F2 !default;
+$color-brand-600: #6615DD !default;
+$color-brand-700: #49109E !default;
+$color-brand-800: #2F0B66 !default;
+$color-brand-900: #15052F !default;
+$color-complementary-a-100: #F5FAFE !default;
+$color-complementary-a-200: #E1EFFD !default;
+$color-complementary-a-300: #BAD9FC !default;
+$color-complementary-a-500: #80B9FA !default;
+$color-complementary-a-600: #57A2F7 !default;
+$color-complementary-a-700: #0852A5 !default;
+$color-complementary-a-800: #05356B !default;
+$color-complementary-a-900: #011931 !default;
+$color-complementary-b-100: #FEF4F5 !default;
+$color-complementary-b-200: #FFE0E0 !default;
+$color-complementary-b-300: #FFB8B8 !default;
+$color-complementary-b-500: #FF6665 !default;
+$color-complementary-b-600: #FF5655 !default;
+$color-complementary-b-700: #AD0100 !default;
+$color-complementary-b-800: #700000 !default;
+$color-complementary-b-900: #330100 !default;
+$color-complementary-c-100: #E1FFF4 !default;
+$color-complementary-c-200: #CBFFEE !default;
+$color-complementary-c-300: #A4FFE0 !default;
+$color-complementary-c-500: #00E99D !default;
+$color-complementary-c-600: #04D28C !default;
+$color-complementary-c-700: #039866 !default;
+$color-complementary-c-800: #005C3C !default;
+$color-complementary-c-900: #011E15 !default;
+$color-complementary-d-100: #FEFCF5 !default;
+$color-complementary-d-200: #FEF6E0 !default;
+$color-complementary-d-300: #FEE9B8 !default;
+$color-complementary-d-500: #FED67C !default;
+$color-complementary-d-600: #FBB91A !default;
+$color-complementary-d-700: #AB7802 !default;
+$color-complementary-d-800: #6E4D02 !default;
+$color-complementary-d-900: #322401 !default;
+$color-transparent: #ffffff00 !default;
+$color-primary-default: #A573F2 !default;
+$color-primary-hovered: #6615DD !default;
+$color-primary-focused: #6615DD !default;
+$color-primary-disabled: #D6BEF9 !default;
+$color-on-primary-default: #ffffff !default;
+$color-on-primary-hovered: #ffffff !default;
+$color-on-primary-focused: #ffffff !default;
+$color-on-primary-disabled: #ffffffb3 !default;
+$color-primary-alt-default: #F8F6FD !default;
+$color-primary-alt-hovered: #EDE3FC !default;
+$color-primary-alt-focused: #EDE3FC !default;
+$color-primary-alt-disabled: #F8F6FD !default;
+$color-on-primary-alt-default: #6615DD !default;
+$color-on-primary-alt-hovered: #6615DD !default;
+$color-on-primary-alt-focused: #6615DD !default;
+$color-on-primary-alt-disabled: #6615dd80 !default;
+$color-secondary-default: #957EBA !default;
+$color-secondary-hovered: #B7A2D8 !default;
+$color-secondary-focused: #B7A2D8 !default;
+$color-secondary-disabled: #EFE7F8 !default;
+$color-on-secondary-default: #18141F !default;
+$color-on-secondary-hovered: #18141F !default;
+$color-on-secondary-focused: #18141F !default;
+$color-on-secondary-disabled: #18141f4d !default;
+$color-secondary-alt-default: #F8F6FD !default;
+$color-secondary-alt-hovered: #EFE7F8 !default;
+$color-secondary-alt-focused: #EFE7F8 !default;
+$color-secondary-alt-disabled: #F8F6FD !default;
+$color-on-secondary-alt-default: #483D59 !default;
+$color-on-secondary-alt-hovered: #18141F !default;
+$color-on-secondary-alt-focused: #18141F !default;
+$color-on-secondary-alt-disabled: #18141f4d !default;
+$color-on-error-default: #ffffff !default;
+$color-on-error-hovered: #ffffff !default;
+$color-on-error-focused: #ffffff !default;
+$color-on-error-disabled: #ffffffb3 !default;
+$color-error-alt-default: #FDF4F4 !default;
+$color-error-alt-hovered: #F5BCBE !default;
+$color-error-alt-focused: #F5BCBE !default;
+$color-error-alt-disabled: #FDF4F4 !default;
+$color-on-error-alt-default: #dc1e27 !default;
+$color-on-error-alt-hovered: #dc1e27 !default;
+$color-on-error-alt-focused: #dc1e27 !default;
+$color-on-error-alt-disabled: #dc1e2780 !default;
+$color-on-warning-default: #ffffff !default;
+$color-on-warning-hovered: #ffffff !default;
+$color-on-warning-focused: #ffffff !default;
+$color-on-warning-disabled: #ffffffb3 !default;
+$color-warning-alt-default: #FFF9F4 !default;
+$color-warning-alt-hovered: #FFDABF !default;
+$color-warning-alt-focused: #FFDABF !default;
+$color-warning-alt-disabled: #FFF9F4 !default;
+$color-on-warning-alt-default: #ff8229 !default;
+$color-on-warning-alt-hovered: #ff8229 !default;
+$color-on-warning-alt-focused: #ff8229 !default;
+$color-on-warning-alt-disabled: #ff822980 !default;
+$color-on-success-default: #ffffff !default;
+$color-on-success-hovered: #ffffff !default;
+$color-on-success-focused: #ffffff !default;
+$color-on-success-disabled: #ffffffb3 !default;
+$color-success-alt-default: #F4F9F5 !default;
+$color-success-alt-hovered: #BAD9C3 !default;
+$color-success-alt-focused: #BAD9C3 !default;
+$color-success-alt-disabled: #F4F9F5 !default;
+$color-on-success-alt-default: #198038 !default;
+$color-on-success-alt-hovered: #198038 !default;
+$color-on-success-alt-focused: #198038 !default;
+$color-on-success-alt-disabled: #19803880 !default;
+$color-on-info-default: #ffffff !default;
+$color-on-info-hovered: #ffffff !default;
+$color-on-info-focused: #ffffff !default;
+$color-on-info-disabled: #ffffffb3 !default;
+$color-info-alt-default: #FFFCF0 !default;
+$color-info-alt-hovered: #FEF3CA !default;
+$color-info-alt-focused: #FEF3CA !default;
+$color-info-alt-disabled: #FFFCF0 !default;
+$color-on-info-alt-default: #BEA64E !default;
+$color-on-info-alt-hovered: #BEA64E !default;
+$color-on-info-alt-focused: #BEA64E !default;
+$color-on-info-alt-disabled: #bea64e80 !default;
+$color-background-default: #ffffff !default;
+$color-on-background-high-emphasis: #18141F !default;
+$color-on-background-default: #483D59 !default;
+$color-on-background-low-emphasis: #B7A2D8 !default;
+$color-on-background-error: #dc1e27 !default;
+$color-on-background-error-subdued: #ED8E93 !default;
+$color-on-background-success: #198038 !default;
+$color-on-background-success-subdued: #8CBF9B !default;
+$color-on-background-warning: #ff8229 !default;
+$color-on-background-warning-subdued: #FFC094 !default;
+$color-on-background-info: #BEA64E !default;
+$color-on-background-info-subdued: #FEECA9 !default;
+$color-surface-primary: #ffffff !default;
+$color-surface-secondary: #F8F6FD !default;
+$color-on-surface-primary-high-emphasis: #18141F !default;
+$color-on-surface-primary-default: #483D59 !default;
+$color-on-surface-primary-low-emphasis: #B7A2D8 !default;
+$color-on-surface-primary-minimal-emphasis: #DBCEF0 !default;
+$color-on-surface-error: #dc1e27 !default;
+$color-on-surface-error-subdued: #ED8E93 !default;
+$color-on-surface-success: #198038 !default;
+$color-on-surface-success-subdued: #8CBF9B !default;
+$color-on-surface-warning: #ff8229 !default;
+$color-on-surface-warning-subdued: #FFC094 !default;
+$color-on-surface-info: #BEA64E !default;
+$color-on-surface-info-subdued: #FEECA9 !default;
+$color-on-surface-secondary-high-emphasis: #18141F !default;
+$color-on-surface-secondary-default: #483D59 !default;
+$color-on-surface-secondary-low-emphasis: #957EBA !default;
+$color-on-surface-secondary-minimal-emphasis: #B7A2D8 !default;
+$space-1: 5 !default;
+$space-2: 9 !default;
+$space-3: 14 !default;
+$space-4: 18 !default;
+$space-5: 27 !default;
+$space-6: 36 !default;
+$space-7: 45 !default;
+$space-8: 72 !default;
+$space-9: 90 !default;
+$space-scale-base-min: 16 !default;
+$space-scale-base-max: 18 !default;
+$space-scale-multiplier-3xs: 0.25 !default;
+$space-scale-multiplier-2xs: 0.5 !default;
+$space-scale-multiplier-xs: 0.75 !default;
+$space-scale-multiplier-s: 1 !default;
+$space-scale-multiplier-m: 1.5 !default;
+$space-scale-multiplier-l: 2 !default;
+$space-scale-multiplier-xl: 2.5 !default;
+$space-scale-multiplier-2xl: 4 !default;
+$space-scale-multiplier-3xl: 5 !default;
+$space-mobile-inset-square-s: 8 !default;
+$space-mobile-inset-square-m: 16 !default;
+$space-mobile-inset-square-l: 32 !default;
+$space-mobile-inset-square-xl: 64 !default;
+$space-mobile-inset-squish-horizontal-s-top-bottom: 4 !default;
+$space-mobile-inset-squish-horizontal-s-left-right: 8 !default;
+$space-mobile-inset-squish-horizontal-m-top-bottom: 8 !default;
+$space-mobile-inset-squish-horizontal-m-left-right: 16 !default;
+$space-mobile-inset-squish-horizontal-l-top-bottom: 16 !default;
+$space-mobile-inset-squish-horizontal-l-left-right: 32 !default;
+$space-mobile-inset-squish-vertical-s-top-bottom: 8 !default;
+$space-mobile-inset-squish-vertical-s-left-right: 4 !default;
+$space-mobile-inset-squish-vertical-m-top-bottom: 16 !default;
+$space-mobile-inset-squish-vertical-m-left-right: 8 !default;
+$space-mobile-inset-squish-vertical-l-top-bottom: 32 !default;
+$space-mobile-inset-squish-vertical-l-left-right: 16 !default;
+$space-mobile-stack-3xs: 4 !default;
+$space-mobile-stack-2xs: 8 !default;
+$space-mobile-stack-xs: 12 !default;
+$space-mobile-stack-s: 16 !default;
+$space-mobile-stack-m: 24 !default;
+$space-mobile-stack-l: 32 !default;
+$space-mobile-stack-xl: 40 !default;
+$space-mobile-stack-2xl: 64 !default;
+$space-mobile-stack-3xl: 80 !default;
+$space-mobile-inline-3xs: 4 !default;
+$space-mobile-inline-2xs: 8 !default;
+$space-mobile-inline-xs: 12 !default;
+$space-mobile-inline-s: 16 !default;
+$space-mobile-inline-m: 24 !default;
+$space-mobile-inline-l: 32 !default;
+$space-mobile-inline-xl: 40 !default;
+$space-mobile-inline-2xl: 64 !default;
+$space-mobile-inline-3xl: 80 !default;
+$space-inset-square-xs: 5 !default;
+$space-inset-square-s: 9 !default;
+$space-inset-square-m: 18 !default;
+$space-inset-square-l: 36 !default;
+$space-inset-square-xl: 72 !default;
+$space-inset-squish-horizontal-s-top-bottom: 5 !default;
+$space-inset-squish-horizontal-s-left-right: 9 !default;
+$space-inset-squish-horizontal-m-top-bottom: 9 !default;
+$space-inset-squish-horizontal-m-left-right: 18 !default;
+$space-inset-squish-horizontal-l-top-bottom: 18 !default;
+$space-inset-squish-horizontal-l-left-right: 36 !default;
+$space-inset-squish-vertical-s-top-bottom: 9 !default;
+$space-inset-squish-vertical-s-left-right: 5 !default;
+$space-inset-squish-vertical-m-top-bottom: 18 !default;
+$space-inset-squish-vertical-m-left-right: 9 !default;
+$space-inset-squish-vertical-l-top-bottom: 36 !default;
+$space-inset-squish-vertical-l-left-right: 18 !default;
+$space-stack-3xs: 5 !default;
+$space-stack-2xs: 9 !default;
+$space-stack-xs: 14 !default;
+$space-stack-s: 18 !default;
+$space-stack-m: 27 !default;
+$space-stack-l: 36 !default;
+$space-stack-xl: 45 !default;
+$space-stack-2xl: 72 !default;
+$space-stack-3xl: 90 !default;
+$space-inline-3xs: 5 !default;
+$space-inline-2xs: 9 !default;
+$space-inline-xs: 14 !default;
+$space-inline-s: 18 !default;
+$space-inline-m: 27 !default;
+$space-inline-l: 36 !default;
+$space-inline-xl: 45 !default;
+$space-inline-2xl: 72 !default;
+$space-inline-3xl: 90 !default;
+$size-1: 8px !default;
+$size-2: 16px !default;
+$size-3: 24px !default;
+$size-4: 32px !default;
+$size-5: 40px !default;
+$size-6: 64px !default;
+$size-7: 80px !default;
+$size-8: 120px !default;
+$size-9: 200px !default;
+$size-10: 280px !default;
+$size-scale-base: 8px !default;
+$opacity-20: 0.2 !default;
+$opacity-50: 0.5 !default;
+$opacity-70: 0.7 !default;
+$opacity-100: 0 !default;
+$opacity-low: 0.2 !default;
+$opacity-medium: 0.5 !default;
+$opacity-high: 0.7 !default;
+$opacity-total: 0 !default;
+$border-width-1: 1 !default;
+$border-width-2: 4 !default;
+$border-width-3: 8 !default;
+$border-width-default: 1 !default;
+$border-width-medium: 4 !default;
+$border-width-large: 8 !default;
+$border-radius-1: 8 !default;
+$border-radius-2: 16 !default;
+$border-radius-3: 32 !default;
+$border-radius-10: 10000 !default;
+$border-radius-scale-base: 8 !default;
+$border-radius-small: 8 !default;
+$border-radius-medium: 16 !default;
+$border-radius-large: 32 !default;
+$border-radius-full: 10000 !default;
+$core-space-mobile-1: 4 !default;
+$core-space-mobile-2: 8 !default;
+$core-space-mobile-3: 12 !default;
+$core-space-mobile-4: 16 !default;
+$core-space-mobile-5: 24 !default;
+$core-space-mobile-6: 32 !default;
+$core-space-mobile-7: 40 !default;
+$core-space-mobile-8: 64 !default;
+$core-space-mobile-9: 80 !default;
+$component-pictogram-size-s: 40 !default;
+$component-pictogram-size-m: 64 !default;
+$component-pictogram-size-l: 80 !default;
+$component-illustration-size-s: 120 !default;
+$component-illustration-size-m: 200 !default;
+$component-illustration-size-l: 280 !default;
+$component-checkbox-border-radius: 8 !default;
+$component-radio-border-radius: 10000 !default;
+$component-toggle-border-radius: 10000 !default;
+$component-icon-size-s: 16 !default;
+$component-icon-size-m: 24 !default;
+$component-icon-size-l: 40 !default;
+$component-layout-page-content-space-horizontal: 36 !default;
+$component-text-link-color-primary-default: #6615DD !default;
+$component-text-link-color-primary-hovered: #49109E !default;
+$component-text-link-color-primary-focused: #49109E !default;
+$box-shadow-small-x: 0 !default;
+$box-shadow-small-y: 2 !default;
+$box-shadow-small-blur: 4 !default;
+$box-shadow-small-spread: 0 !default;
+$box-shadow-small-color: #18141f1a !default;
+$box-shadow-small-type: dropShadow !default;
+$box-shadow-medium-x: 0 !default;
+$box-shadow-medium-y: 4 !default;
+$box-shadow-medium-blur: 12 !default;
+$box-shadow-medium-spread: 4 !default;
+$box-shadow-medium-color: #18141f26 !default;
+$box-shadow-medium-type: dropShadow !default;
+$box-shadow-large-x: 0 !default;
+$box-shadow-large-y: 8 !default;
+$box-shadow-large-blur: 24 !default;
+$box-shadow-large-spread: 8 !default;
+$box-shadow-large-color: #18141f26 !default;
+$box-shadow-large-type: dropShadow !default;
+
+$tokens: (
+  'font': (
+    'size': (
+      'baseMin': $font-size-base-min,
+      'baseMax': $font-size-base-max
+    ),
+    'lineHeight': (
+      'bodyText': $font-line-height-body-text,
+      'helperText': $font-line-height-helper-text,
+      'heading': $font-line-height-heading
+    ),
+    'family': (
+      'sans': $font-family-sans,
+      'text': $font-family-text,
+      'heading': $font-family-heading
+    ),
+    'weight': (
+      'regular': $font-weight-regular,
+      'semiBold': $font-weight-semi-bold,
+      'Bold': $font-weight-bold
+    ),
+    'letterSpacing': (
+      'base': $font-letter-spacing-base
+    ),
+    'paragraphSpacing': (
+      'base': $font-paragraph-spacing-base
+    ),
+    'textDecoration': (
+      'none': $font-text-decoration-none
+    ),
+    'textCase': (
+      'none': $font-text-case-none
+    ),
+    'scale': (
+      'baseMin': $font-scale-base-min,
+      'baseMax': $font-scale-base-max
+    ),
+    'scaleRange': (
+      '0': $font-scale-range-0,
+      'up-1': $font-scale-range-up-1,
+      'up-2': $font-scale-range-up-2,
+      'up-3': $font-scale-range-up-3,
+      'up-4': $font-scale-range-up-4,
+      'up-5': $font-scale-range-up-5,
+      'down-1': $font-scale-range-down-1,
+      'down-2': $font-scale-range-down-2,
+      'down-3': $font-scale-range-down-3
+    ),
+    'mobile': (
+      'bodyText': (
+        'regular': (
+          'default': (
+            'fontFamily': $font-mobile-body-text-regular-default-font-family,
+            'fontWeight': $font-mobile-body-text-regular-default-font-weight,
+            'lineHeight': $font-mobile-body-text-regular-default-line-height,
+            'fontSize': $font-mobile-body-text-regular-default-font-size,
+            'letterSpacing': $font-mobile-body-text-regular-default-letter-spacing,
+            'paragraphSpacing': $font-mobile-body-text-regular-default-paragraph-spacing,
+            'textDecoration': $font-mobile-body-text-regular-default-text-decoration,
+            'textCase': $font-mobile-body-text-regular-default-text-case
+          ),
+          'small': (
+            'fontFamily': $font-mobile-body-text-regular-small-font-family,
+            'fontWeight': $font-mobile-body-text-regular-small-font-weight,
+            'lineHeight': $font-mobile-body-text-regular-small-line-height,
+            'fontSize': $font-mobile-body-text-regular-small-font-size,
+            'letterSpacing': $font-mobile-body-text-regular-small-letter-spacing,
+            'paragraphSpacing': $font-mobile-body-text-regular-small-paragraph-spacing,
+            'textDecoration': $font-mobile-body-text-regular-small-text-decoration,
+            'textCase': $font-mobile-body-text-regular-small-text-case
+          ),
+          'large': (
+            'fontFamily': $font-mobile-body-text-regular-large-font-family,
+            'fontWeight': $font-mobile-body-text-regular-large-font-weight,
+            'lineHeight': $font-mobile-body-text-regular-large-line-height,
+            'fontSize': $font-mobile-body-text-regular-large-font-size,
+            'letterSpacing': $font-mobile-body-text-regular-large-letter-spacing,
+            'paragraphSpacing': $font-mobile-body-text-regular-large-paragraph-spacing,
+            'textDecoration': $font-mobile-body-text-regular-large-text-decoration,
+            'textCase': $font-mobile-body-text-regular-large-text-case
+          )
+        ),
+        'semiBold': (
+          'default': (
+            'fontFamily': $font-mobile-body-text-semi-bold-default-font-family,
+            'fontWeight': $font-mobile-body-text-semi-bold-default-font-weight,
+            'lineHeight': $font-mobile-body-text-semi-bold-default-line-height,
+            'fontSize': $font-mobile-body-text-semi-bold-default-font-size,
+            'letterSpacing': $font-mobile-body-text-semi-bold-default-letter-spacing,
+            'paragraphSpacing': $font-mobile-body-text-semi-bold-default-paragraph-spacing,
+            'textDecoration': $font-mobile-body-text-semi-bold-default-text-decoration,
+            'textCase': $font-mobile-body-text-semi-bold-default-text-case
+          ),
+          'small': (
+            'fontFamily': $font-mobile-body-text-semi-bold-small-font-family,
+            'fontWeight': $font-mobile-body-text-semi-bold-small-font-weight,
+            'lineHeight': $font-mobile-body-text-semi-bold-small-line-height,
+            'fontSize': $font-mobile-body-text-semi-bold-small-font-size,
+            'letterSpacing': $font-mobile-body-text-semi-bold-small-letter-spacing,
+            'paragraphSpacing': $font-mobile-body-text-semi-bold-small-paragraph-spacing,
+            'textDecoration': $font-mobile-body-text-semi-bold-small-text-decoration,
+            'textCase': $font-mobile-body-text-semi-bold-small-text-case
+          ),
+          'large': (
+            'fontFamily': $font-mobile-body-text-semi-bold-large-font-family,
+            'fontWeight': $font-mobile-body-text-semi-bold-large-font-weight,
+            'lineHeight': $font-mobile-body-text-semi-bold-large-line-height,
+            'fontSize': $font-mobile-body-text-semi-bold-large-font-size,
+            'letterSpacing': $font-mobile-body-text-semi-bold-large-letter-spacing,
+            'paragraphSpacing': $font-mobile-body-text-semi-bold-large-paragraph-spacing,
+            'textDecoration': $font-mobile-body-text-semi-bold-large-text-decoration,
+            'textCase': $font-mobile-body-text-semi-bold-large-text-case
+          )
+        )
+      ),
+      'heading': (
+        '1': (
+          'fontFamily': $font-mobile-heading-1-font-family,
+          'fontWeight': $font-mobile-heading-1-font-weight,
+          'lineHeight': $font-mobile-heading-1-line-height,
+          'fontSize': $font-mobile-heading-1-font-size,
+          'letterSpacing': $font-mobile-heading-1-letter-spacing,
+          'paragraphSpacing': $font-mobile-heading-1-paragraph-spacing,
+          'textDecoration': $font-mobile-heading-1-text-decoration,
+          'textCase': $font-mobile-heading-1-text-case
+        ),
+        '2': (
+          'fontFamily': $font-mobile-heading-2-font-family,
+          'fontWeight': $font-mobile-heading-2-font-weight,
+          'lineHeight': $font-mobile-heading-2-line-height,
+          'fontSize': $font-mobile-heading-2-font-size,
+          'letterSpacing': $font-mobile-heading-2-letter-spacing,
+          'paragraphSpacing': $font-mobile-heading-2-paragraph-spacing,
+          'textDecoration': $font-mobile-heading-2-text-decoration,
+          'textCase': $font-mobile-heading-2-text-case
+        ),
+        '3': (
+          'fontFamily': $font-mobile-heading-3-font-family,
+          'fontWeight': $font-mobile-heading-3-font-weight,
+          'lineHeight': $font-mobile-heading-3-line-height,
+          'fontSize': $font-mobile-heading-3-font-size,
+          'letterSpacing': $font-mobile-heading-3-letter-spacing,
+          'paragraphSpacing': $font-mobile-heading-3-paragraph-spacing,
+          'textDecoration': $font-mobile-heading-3-text-decoration,
+          'textCase': $font-mobile-heading-3-text-case
+        ),
+        '4': (
+          'fontFamily': $font-mobile-heading-4-font-family,
+          'fontWeight': $font-mobile-heading-4-font-weight,
+          'lineHeight': $font-mobile-heading-4-line-height,
+          'fontSize': $font-mobile-heading-4-font-size,
+          'letterSpacing': $font-mobile-heading-4-letter-spacing,
+          'paragraphSpacing': $font-mobile-heading-4-paragraph-spacing,
+          'textDecoration': $font-mobile-heading-4-text-decoration,
+          'textCase': $font-mobile-heading-4-text-case
+        ),
+        '5': (
+          'fontFamily': $font-mobile-heading-5-font-family,
+          'fontWeight': $font-mobile-heading-5-font-weight,
+          'lineHeight': $font-mobile-heading-5-line-height,
+          'fontSize': $font-mobile-heading-5-font-size,
+          'letterSpacing': $font-mobile-heading-5-letter-spacing,
+          'paragraphSpacing': $font-mobile-heading-5-paragraph-spacing,
+          'textDecoration': $font-mobile-heading-5-text-decoration,
+          'textCase': $font-mobile-heading-5-text-case
+        )
+      ),
+      'helperText': (
+        'regular': (
+          'default': (
+            'fontFamily': $font-mobile-helper-text-regular-default-font-family,
+            'fontWeight': $font-mobile-helper-text-regular-default-font-weight,
+            'lineHeight': $font-mobile-helper-text-regular-default-line-height,
+            'fontSize': $font-mobile-helper-text-regular-default-font-size,
+            'letterSpacing': $font-mobile-helper-text-regular-default-letter-spacing,
+            'paragraphSpacing': $font-mobile-helper-text-regular-default-paragraph-spacing,
+            'textDecoration': $font-mobile-helper-text-regular-default-text-decoration,
+            'textCase': $font-mobile-helper-text-regular-default-text-case
+          ),
+          'small': (
+            'fontFamily': $font-mobile-helper-text-regular-small-font-family,
+            'fontWeight': $font-mobile-helper-text-regular-small-font-weight,
+            'lineHeight': $font-mobile-helper-text-regular-small-line-height,
+            'fontSize': $font-mobile-helper-text-regular-small-font-size,
+            'letterSpacing': $font-mobile-helper-text-regular-small-letter-spacing,
+            'paragraphSpacing': $font-mobile-helper-text-regular-small-paragraph-spacing,
+            'textDecoration': $font-mobile-helper-text-regular-small-text-decoration,
+            'textCase': $font-mobile-helper-text-regular-small-text-case
+          ),
+          'large': (
+            'fontFamily': $font-mobile-helper-text-regular-large-font-family,
+            'fontWeight': $font-mobile-helper-text-regular-large-font-weight,
+            'lineHeight': $font-mobile-helper-text-regular-large-line-height,
+            'fontSize': $font-mobile-helper-text-regular-large-font-size,
+            'letterSpacing': $font-mobile-helper-text-regular-large-letter-spacing,
+            'paragraphSpacing': $font-mobile-helper-text-regular-large-paragraph-spacing,
+            'textDecoration': $font-mobile-helper-text-regular-large-text-decoration,
+            'textCase': $font-mobile-helper-text-regular-large-text-case
+          )
+        ),
+        'semiBold': (
+          'default': (
+            'fontFamily': $font-mobile-helper-text-semi-bold-default-font-family,
+            'fontWeight': $font-mobile-helper-text-semi-bold-default-font-weight,
+            'lineHeight': $font-mobile-helper-text-semi-bold-default-line-height,
+            'fontSize': $font-mobile-helper-text-semi-bold-default-font-size,
+            'letterSpacing': $font-mobile-helper-text-semi-bold-default-letter-spacing,
+            'paragraphSpacing': $font-mobile-helper-text-semi-bold-default-paragraph-spacing,
+            'textDecoration': $font-mobile-helper-text-semi-bold-default-text-decoration,
+            'textCase': $font-mobile-helper-text-semi-bold-default-text-case
+          ),
+          'small': (
+            'fontFamily': $font-mobile-helper-text-semi-bold-small-font-family,
+            'fontWeight': $font-mobile-helper-text-semi-bold-small-font-weight,
+            'lineHeight': $font-mobile-helper-text-semi-bold-small-line-height,
+            'fontSize': $font-mobile-helper-text-semi-bold-small-font-size,
+            'letterSpacing': $font-mobile-helper-text-semi-bold-small-letter-spacing,
+            'paragraphSpacing': $font-mobile-helper-text-semi-bold-small-paragraph-spacing,
+            'textDecoration': $font-mobile-helper-text-semi-bold-small-text-decoration,
+            'textCase': $font-mobile-helper-text-semi-bold-small-text-case
+          ),
+          'large': (
+            'fontFamily': $font-mobile-helper-text-semi-bold-large-font-family,
+            'fontWeight': $font-mobile-helper-text-semi-bold-large-font-weight,
+            'lineHeight': $font-mobile-helper-text-semi-bold-large-line-height,
+            'fontSize': $font-mobile-helper-text-semi-bold-large-font-size,
+            'letterSpacing': $font-mobile-helper-text-semi-bold-large-letter-spacing,
+            'paragraphSpacing': $font-mobile-helper-text-semi-bold-large-paragraph-spacing,
+            'textDecoration': $font-mobile-helper-text-semi-bold-large-text-decoration,
+            'textCase': $font-mobile-helper-text-semi-bold-large-text-case
+          )
+        )
+      )
+    ),
+    'bodyText': (
+      'regular': (
+        'default': (
+          'fontFamily': $font-body-text-regular-default-font-family,
+          'fontWeight': $font-body-text-regular-default-font-weight,
+          'lineHeight': $font-body-text-regular-default-line-height,
+          'fontSize': $font-body-text-regular-default-font-size,
+          'letterSpacing': $font-body-text-regular-default-letter-spacing,
+          'paragraphSpacing': $font-body-text-regular-default-paragraph-spacing,
+          'textDecoration': $font-body-text-regular-default-text-decoration,
+          'textCase': $font-body-text-regular-default-text-case
+        ),
+        'small': (
+          'fontFamily': $font-body-text-regular-small-font-family,
+          'fontWeight': $font-body-text-regular-small-font-weight,
+          'lineHeight': $font-body-text-regular-small-line-height,
+          'fontSize': $font-body-text-regular-small-font-size,
+          'letterSpacing': $font-body-text-regular-small-letter-spacing,
+          'paragraphSpacing': $font-body-text-regular-small-paragraph-spacing,
+          'textDecoration': $font-body-text-regular-small-text-decoration,
+          'textCase': $font-body-text-regular-small-text-case
+        ),
+        'large': (
+          'fontFamily': $font-body-text-regular-large-font-family,
+          'fontWeight': $font-body-text-regular-large-font-weight,
+          'lineHeight': $font-body-text-regular-large-line-height,
+          'fontSize': $font-body-text-regular-large-font-size,
+          'letterSpacing': $font-body-text-regular-large-letter-spacing,
+          'paragraphSpacing': $font-body-text-regular-large-paragraph-spacing,
+          'textDecoration': $font-body-text-regular-large-text-decoration,
+          'textCase': $font-body-text-regular-large-text-case
+        )
+      ),
+      'semiBold': (
+        'default': (
+          'fontFamily': $font-body-text-semi-bold-default-font-family,
+          'fontWeight': $font-body-text-semi-bold-default-font-weight,
+          'lineHeight': $font-body-text-semi-bold-default-line-height,
+          'fontSize': $font-body-text-semi-bold-default-font-size,
+          'letterSpacing': $font-body-text-semi-bold-default-letter-spacing,
+          'paragraphSpacing': $font-body-text-semi-bold-default-paragraph-spacing,
+          'textDecoration': $font-body-text-semi-bold-default-text-decoration,
+          'textCase': $font-body-text-semi-bold-default-text-case
+        ),
+        'small': (
+          'fontFamily': $font-body-text-semi-bold-small-font-family,
+          'fontWeight': $font-body-text-semi-bold-small-font-weight,
+          'lineHeight': $font-body-text-semi-bold-small-line-height,
+          'fontSize': $font-body-text-semi-bold-small-font-size,
+          'letterSpacing': $font-body-text-semi-bold-small-letter-spacing,
+          'paragraphSpacing': $font-body-text-semi-bold-small-paragraph-spacing,
+          'textDecoration': $font-body-text-semi-bold-small-text-decoration,
+          'textCase': $font-body-text-semi-bold-small-text-case
+        ),
+        'large': (
+          'fontFamily': $font-body-text-semi-bold-large-font-family,
+          'fontWeight': $font-body-text-semi-bold-large-font-weight,
+          'lineHeight': $font-body-text-semi-bold-large-line-height,
+          'fontSize': $font-body-text-semi-bold-large-font-size,
+          'letterSpacing': $font-body-text-semi-bold-large-letter-spacing,
+          'paragraphSpacing': $font-body-text-semi-bold-large-paragraph-spacing,
+          'textDecoration': $font-body-text-semi-bold-large-text-decoration,
+          'textCase': $font-body-text-semi-bold-large-text-case
+        )
+      )
+    ),
+    'heading': (
+      '1': (
+        'fontFamily': $font-heading-1-font-family,
+        'fontWeight': $font-heading-1-font-weight,
+        'lineHeight': $font-heading-1-line-height,
+        'fontSize': $font-heading-1-font-size,
+        'letterSpacing': $font-heading-1-letter-spacing,
+        'paragraphSpacing': $font-heading-1-paragraph-spacing,
+        'textDecoration': $font-heading-1-text-decoration,
+        'textCase': $font-heading-1-text-case
+      ),
+      '2': (
+        'fontFamily': $font-heading-2-font-family,
+        'fontWeight': $font-heading-2-font-weight,
+        'lineHeight': $font-heading-2-line-height,
+        'fontSize': $font-heading-2-font-size,
+        'letterSpacing': $font-heading-2-letter-spacing,
+        'paragraphSpacing': $font-heading-2-paragraph-spacing,
+        'textDecoration': $font-heading-2-text-decoration,
+        'textCase': $font-heading-2-text-case
+      ),
+      '3': (
+        'fontFamily': $font-heading-3-font-family,
+        'fontWeight': $font-heading-3-font-weight,
+        'lineHeight': $font-heading-3-line-height,
+        'fontSize': $font-heading-3-font-size,
+        'letterSpacing': $font-heading-3-letter-spacing,
+        'paragraphSpacing': $font-heading-3-paragraph-spacing,
+        'textDecoration': $font-heading-3-text-decoration,
+        'textCase': $font-heading-3-text-case
+      ),
+      '4': (
+        'fontFamily': $font-heading-4-font-family,
+        'fontWeight': $font-heading-4-font-weight,
+        'lineHeight': $font-heading-4-line-height,
+        'fontSize': $font-heading-4-font-size,
+        'letterSpacing': $font-heading-4-letter-spacing,
+        'paragraphSpacing': $font-heading-4-paragraph-spacing,
+        'textDecoration': $font-heading-4-text-decoration,
+        'textCase': $font-heading-4-text-case
+      ),
+      '5': (
+        'fontFamily': $font-heading-5-font-family,
+        'fontWeight': $font-heading-5-font-weight,
+        'lineHeight': $font-heading-5-line-height,
+        'fontSize': $font-heading-5-font-size,
+        'letterSpacing': $font-heading-5-letter-spacing,
+        'paragraphSpacing': $font-heading-5-paragraph-spacing,
+        'textDecoration': $font-heading-5-text-decoration,
+        'textCase': $font-heading-5-text-case
+      )
+    ),
+    'helperText': (
+      'regular': (
+        'default': (
+          'fontFamily': $font-helper-text-regular-default-font-family,
+          'fontWeight': $font-helper-text-regular-default-font-weight,
+          'lineHeight': $font-helper-text-regular-default-line-height,
+          'fontSize': $font-helper-text-regular-default-font-size,
+          'letterSpacing': $font-helper-text-regular-default-letter-spacing,
+          'paragraphSpacing': $font-helper-text-regular-default-paragraph-spacing,
+          'textDecoration': $font-helper-text-regular-default-text-decoration,
+          'textCase': $font-helper-text-regular-default-text-case
+        ),
+        'small': (
+          'fontFamily': $font-helper-text-regular-small-font-family,
+          'fontWeight': $font-helper-text-regular-small-font-weight,
+          'lineHeight': $font-helper-text-regular-small-line-height,
+          'fontSize': $font-helper-text-regular-small-font-size,
+          'letterSpacing': $font-helper-text-regular-small-letter-spacing,
+          'paragraphSpacing': $font-helper-text-regular-small-paragraph-spacing,
+          'textDecoration': $font-helper-text-regular-small-text-decoration,
+          'textCase': $font-helper-text-regular-small-text-case
+        ),
+        'large': (
+          'fontFamily': $font-helper-text-regular-large-font-family,
+          'fontWeight': $font-helper-text-regular-large-font-weight,
+          'lineHeight': $font-helper-text-regular-large-line-height,
+          'fontSize': $font-helper-text-regular-large-font-size,
+          'letterSpacing': $font-helper-text-regular-large-letter-spacing,
+          'paragraphSpacing': $font-helper-text-regular-large-paragraph-spacing,
+          'textDecoration': $font-helper-text-regular-large-text-decoration,
+          'textCase': $font-helper-text-regular-large-text-case
+        )
+      ),
+      'semiBold': (
+        'default': (
+          'fontFamily': $font-helper-text-semi-bold-default-font-family,
+          'fontWeight': $font-helper-text-semi-bold-default-font-weight,
+          'lineHeight': $font-helper-text-semi-bold-default-line-height,
+          'fontSize': $font-helper-text-semi-bold-default-font-size,
+          'letterSpacing': $font-helper-text-semi-bold-default-letter-spacing,
+          'paragraphSpacing': $font-helper-text-semi-bold-default-paragraph-spacing,
+          'textDecoration': $font-helper-text-semi-bold-default-text-decoration,
+          'textCase': $font-helper-text-semi-bold-default-text-case
+        ),
+        'small': (
+          'fontFamily': $font-helper-text-semi-bold-small-font-family,
+          'fontWeight': $font-helper-text-semi-bold-small-font-weight,
+          'lineHeight': $font-helper-text-semi-bold-small-line-height,
+          'fontSize': $font-helper-text-semi-bold-small-font-size,
+          'letterSpacing': $font-helper-text-semi-bold-small-letter-spacing,
+          'paragraphSpacing': $font-helper-text-semi-bold-small-paragraph-spacing,
+          'textDecoration': $font-helper-text-semi-bold-small-text-decoration,
+          'textCase': $font-helper-text-semi-bold-small-text-case
+        ),
+        'large': (
+          'fontFamily': $font-helper-text-semi-bold-large-font-family,
+          'fontWeight': $font-helper-text-semi-bold-large-font-weight,
+          'lineHeight': $font-helper-text-semi-bold-large-line-height,
+          'fontSize': $font-helper-text-semi-bold-large-font-size,
+          'letterSpacing': $font-helper-text-semi-bold-large-letter-spacing,
+          'paragraphSpacing': $font-helper-text-semi-bold-large-paragraph-spacing,
+          'textDecoration': $font-helper-text-semi-bold-large-text-decoration,
+          'textCase': $font-helper-text-semi-bold-large-text-case
+        )
+      )
+    )
+  ),
+  'color': (
+    'black': $color-black,
+    'white': $color-white,
+    'gray': (
+      '100': $color-gray-100,
+      '200': $color-gray-200,
+      '300': $color-gray-300,
+      '400': $color-gray-400,
+      '500': $color-gray-500,
+      '600': $color-gray-600,
+      '700': $color-gray-700
+    ),
+    'error': (
+      '100': $color-error-100,
+      '200': $color-error-200,
+      '300': $color-error-300,
+      '500': $color-error-500,
+      '600': $color-error-600,
+      '800': $color-error-800,
+      'default': $color-error-default,
+      'hovered': $color-error-hovered,
+      'focused': $color-error-focused,
+      'disabled': $color-error-disabled
+    ),
+    'success': (
+      '100': $color-success-100,
+      '200': $color-success-200,
+      '300': $color-success-300,
+      '500': $color-success-500,
+      '600': $color-success-600,
+      '800': $color-success-800,
+      'default': $color-success-default,
+      'hovered': $color-success-hovered,
+      'focused': $color-success-focused,
+      'disabled': $color-success-disabled
+    ),
+    'warning': (
+      '100': $color-warning-100,
+      '200': $color-warning-200,
+      '300': $color-warning-300,
+      '500': $color-warning-500,
+      '600': $color-warning-600,
+      '800': $color-warning-800,
+      'default': $color-warning-default,
+      'hovered': $color-warning-hovered,
+      'focused': $color-warning-focused,
+      'disabled': $color-warning-disabled
+    ),
+    'info': (
+      '100': $color-info-100,
+      '200': $color-info-200,
+      '300': $color-info-300,
+      '500': $color-info-500,
+      '600': $color-info-600,
+      '800': $color-info-800,
+      'default': $color-info-default,
+      'focused': $color-info-focused,
+      'hovered': $color-info-hovered,
+      'disabled': $color-info-disabled
+    ),
+    'brand': (
+      '100': $color-brand-100,
+      '200': $color-brand-200,
+      '300': $color-brand-300,
+      '500': $color-brand-500,
+      '600': $color-brand-600,
+      '700': $color-brand-700,
+      '800': $color-brand-800,
+      '900': $color-brand-900
+    ),
+    'complementary': (
+      'a': (
+        '100': $color-complementary-a-100,
+        '200': $color-complementary-a-200,
+        '300': $color-complementary-a-300,
+        '500': $color-complementary-a-500,
+        '600': $color-complementary-a-600,
+        '700': $color-complementary-a-700,
+        '800': $color-complementary-a-800,
+        '900': $color-complementary-a-900
+      ),
+      'b': (
+        '100': $color-complementary-b-100,
+        '200': $color-complementary-b-200,
+        '300': $color-complementary-b-300,
+        '500': $color-complementary-b-500,
+        '600': $color-complementary-b-600,
+        '700': $color-complementary-b-700,
+        '800': $color-complementary-b-800,
+        '900': $color-complementary-b-900
+      ),
+      'c': (
+        '100': $color-complementary-c-100,
+        '200': $color-complementary-c-200,
+        '300': $color-complementary-c-300,
+        '500': $color-complementary-c-500,
+        '600': $color-complementary-c-600,
+        '700': $color-complementary-c-700,
+        '800': $color-complementary-c-800,
+        '900': $color-complementary-c-900
+      ),
+      'd': (
+        '100': $color-complementary-d-100,
+        '200': $color-complementary-d-200,
+        '300': $color-complementary-d-300,
+        '500': $color-complementary-d-500,
+        '600': $color-complementary-d-600,
+        '700': $color-complementary-d-700,
+        '800': $color-complementary-d-800,
+        '900': $color-complementary-d-900
+      )
+    ),
+    'transparent': $color-transparent,
+    'primary': (
+      'default': $color-primary-default,
+      'hovered': $color-primary-hovered,
+      'focused': $color-primary-focused,
+      'disabled': $color-primary-disabled
+    ),
+    'onPrimary': (
+      'default': $color-on-primary-default,
+      'hovered': $color-on-primary-hovered,
+      'focused': $color-on-primary-focused,
+      'disabled': $color-on-primary-disabled
+    ),
+    'primary-alt': (
+      'default': $color-primary-alt-default,
+      'hovered': $color-primary-alt-hovered,
+      'focused': $color-primary-alt-focused,
+      'disabled': $color-primary-alt-disabled
+    ),
+    'onPrimary-alt': (
+      'default': $color-on-primary-alt-default,
+      'hovered': $color-on-primary-alt-hovered,
+      'focused': $color-on-primary-alt-focused,
+      'disabled': $color-on-primary-alt-disabled
+    ),
+    'secondary': (
+      'default': $color-secondary-default,
+      'hovered': $color-secondary-hovered,
+      'focused': $color-secondary-focused,
+      'disabled': $color-secondary-disabled
+    ),
+    'onSecondary': (
+      'default': $color-on-secondary-default,
+      'hovered': $color-on-secondary-hovered,
+      'focused': $color-on-secondary-focused,
+      'disabled': $color-on-secondary-disabled
+    ),
+    'secondary-alt': (
+      'default': $color-secondary-alt-default,
+      'hovered': $color-secondary-alt-hovered,
+      'focused': $color-secondary-alt-focused,
+      'disabled': $color-secondary-alt-disabled
+    ),
+    'onSecondary-alt': (
+      'default': $color-on-secondary-alt-default,
+      'hovered': $color-on-secondary-alt-hovered,
+      'focused': $color-on-secondary-alt-focused,
+      'disabled': $color-on-secondary-alt-disabled
+    ),
+    'onError': (
+      'default': $color-on-error-default,
+      'hovered': $color-on-error-hovered,
+      'focused': $color-on-error-focused,
+      'disabled': $color-on-error-disabled
+    ),
+    'error-alt': (
+      'default': $color-error-alt-default,
+      'hovered': $color-error-alt-hovered,
+      'focused': $color-error-alt-focused,
+      'disabled': $color-error-alt-disabled
+    ),
+    'onError-alt': (
+      'default': $color-on-error-alt-default,
+      'hovered': $color-on-error-alt-hovered,
+      'focused': $color-on-error-alt-focused,
+      'disabled': $color-on-error-alt-disabled
+    ),
+    'onWarning': (
+      'default': $color-on-warning-default,
+      'hovered': $color-on-warning-hovered,
+      'focused': $color-on-warning-focused,
+      'disabled': $color-on-warning-disabled
+    ),
+    'warning-alt': (
+      'default': $color-warning-alt-default,
+      'hovered': $color-warning-alt-hovered,
+      'focused': $color-warning-alt-focused,
+      'disabled': $color-warning-alt-disabled
+    ),
+    'onWarning-alt': (
+      'default': $color-on-warning-alt-default,
+      'hovered': $color-on-warning-alt-hovered,
+      'focused': $color-on-warning-alt-focused,
+      'disabled': $color-on-warning-alt-disabled
+    ),
+    'onSuccess': (
+      'default': $color-on-success-default,
+      'hovered': $color-on-success-hovered,
+      'focused': $color-on-success-focused,
+      'disabled': $color-on-success-disabled
+    ),
+    'success-alt': (
+      'default': $color-success-alt-default,
+      'hovered': $color-success-alt-hovered,
+      'focused': $color-success-alt-focused,
+      'disabled': $color-success-alt-disabled
+    ),
+    'onSuccess-alt': (
+      'default': $color-on-success-alt-default,
+      'hovered': $color-on-success-alt-hovered,
+      'focused': $color-on-success-alt-focused,
+      'disabled': $color-on-success-alt-disabled
+    ),
+    'onInfo': (
+      'default': $color-on-info-default,
+      'hovered': $color-on-info-hovered,
+      'focused': $color-on-info-focused,
+      'disabled': $color-on-info-disabled
+    ),
+    'info-alt': (
+      'default': $color-info-alt-default,
+      'hovered': $color-info-alt-hovered,
+      'focused': $color-info-alt-focused,
+      'disabled': $color-info-alt-disabled
+    ),
+    'onInfo-alt': (
+      'default': $color-on-info-alt-default,
+      'hovered': $color-on-info-alt-hovered,
+      'focused': $color-on-info-alt-focused,
+      'disabled': $color-on-info-alt-disabled
+    ),
+    'background': (
+      'default': $color-background-default
+    ),
+    'onBackground': (
+      'highEmphasis': $color-on-background-high-emphasis,
+      'default': $color-on-background-default,
+      'lowEmphasis': $color-on-background-low-emphasis,
+      'error': $color-on-background-error,
+      'error-subdued': $color-on-background-error-subdued,
+      'success': $color-on-background-success,
+      'success-subdued': $color-on-background-success-subdued,
+      'warning': $color-on-background-warning,
+      'warning-subdued': $color-on-background-warning-subdued,
+      'info': $color-on-background-info,
+      'info-subdued': $color-on-background-info-subdued
+    ),
+    'surface': (
+      'primary': $color-surface-primary,
+      'secondary': $color-surface-secondary
+    ),
+    'onSurface': (
+      'primary': (
+        'highEmphasis': $color-on-surface-primary-high-emphasis,
+        'default': $color-on-surface-primary-default,
+        'lowEmphasis': $color-on-surface-primary-low-emphasis,
+        'minimalEmphasis': $color-on-surface-primary-minimal-emphasis
+      ),
+      'error': $color-on-surface-error,
+      'error-subdued': $color-on-surface-error-subdued,
+      'success': $color-on-surface-success,
+      'success-subdued': $color-on-surface-success-subdued,
+      'warning': $color-on-surface-warning,
+      'warning-subdued': $color-on-surface-warning-subdued,
+      'info': $color-on-surface-info,
+      'info-subdued': $color-on-surface-info-subdued,
+      'secondary': (
+        'highEmphasis': $color-on-surface-secondary-high-emphasis,
+        'default': $color-on-surface-secondary-default,
+        'lowEmphasis': $color-on-surface-secondary-low-emphasis,
+        'minimalEmphasis': $color-on-surface-secondary-minimal-emphasis
+      )
+    )
+  ),
+  'space': (
+    '1': $space-1,
+    '2': $space-2,
+    '3': $space-3,
+    '4': $space-4,
+    '5': $space-5,
+    '6': $space-6,
+    '7': $space-7,
+    '8': $space-8,
+    '9': $space-9,
+    'scale': (
+      'baseMin': $space-scale-base-min,
+      'baseMax': $space-scale-base-max
+    ),
+    'scaleMultiplier': (
+      '3xs': $space-scale-multiplier-3xs,
+      '2xs': $space-scale-multiplier-2xs,
+      'xs': $space-scale-multiplier-xs,
+      's': $space-scale-multiplier-s,
+      'm': $space-scale-multiplier-m,
+      'l': $space-scale-multiplier-l,
+      'xl': $space-scale-multiplier-xl,
+      '2xl': $space-scale-multiplier-2xl,
+      '3xl': $space-scale-multiplier-3xl
+    ),
+    'mobile': (
+      'inset': (
+        'square': (
+          's': $space-mobile-inset-square-s,
+          'm': $space-mobile-inset-square-m,
+          'l': $space-mobile-inset-square-l,
+          'xl': $space-mobile-inset-square-xl
+        ),
+        'squishHorizontal': (
+          's': (
+            'topBottom': $space-mobile-inset-squish-horizontal-s-top-bottom,
+            'leftRight': $space-mobile-inset-squish-horizontal-s-left-right
+          ),
+          'm': (
+            'topBottom': $space-mobile-inset-squish-horizontal-m-top-bottom,
+            'leftRight': $space-mobile-inset-squish-horizontal-m-left-right
+          ),
+          'l': (
+            'topBottom': $space-mobile-inset-squish-horizontal-l-top-bottom,
+            'leftRight': $space-mobile-inset-squish-horizontal-l-left-right
+          )
+        ),
+        'squishVertical': (
+          's': (
+            'topBottom': $space-mobile-inset-squish-vertical-s-top-bottom,
+            'leftRight': $space-mobile-inset-squish-vertical-s-left-right
+          ),
+          'm': (
+            'topBottom': $space-mobile-inset-squish-vertical-m-top-bottom,
+            'leftRight': $space-mobile-inset-squish-vertical-m-left-right
+          ),
+          'l': (
+            'topBottom': $space-mobile-inset-squish-vertical-l-top-bottom,
+            'leftRight': $space-mobile-inset-squish-vertical-l-left-right
+          )
+        )
+      ),
+      'stack': (
+        '3xs': $space-mobile-stack-3xs,
+        '2xs': $space-mobile-stack-2xs,
+        'xs': $space-mobile-stack-xs,
+        's': $space-mobile-stack-s,
+        'm': $space-mobile-stack-m,
+        'l': $space-mobile-stack-l,
+        'xl': $space-mobile-stack-xl,
+        '2xl': $space-mobile-stack-2xl,
+        '3xl': $space-mobile-stack-3xl
+      ),
+      'inline': (
+        '3xs': $space-mobile-inline-3xs,
+        '2xs': $space-mobile-inline-2xs,
+        'xs': $space-mobile-inline-xs,
+        's': $space-mobile-inline-s,
+        'm': $space-mobile-inline-m,
+        'l': $space-mobile-inline-l,
+        'xl': $space-mobile-inline-xl,
+        '2xl': $space-mobile-inline-2xl,
+        '3xl': $space-mobile-inline-3xl
+      )
+    ),
+    'inset': (
+      'square': (
+        'xs': $space-inset-square-xs,
+        's': $space-inset-square-s,
+        'm': $space-inset-square-m,
+        'l': $space-inset-square-l,
+        'xl': $space-inset-square-xl
+      ),
+      'squishHorizontal': (
+        's': (
+          'topBottom': $space-inset-squish-horizontal-s-top-bottom,
+          'leftRight': $space-inset-squish-horizontal-s-left-right
+        ),
+        'm': (
+          'topBottom': $space-inset-squish-horizontal-m-top-bottom,
+          'leftRight': $space-inset-squish-horizontal-m-left-right
+        ),
+        'l': (
+          'topBottom': $space-inset-squish-horizontal-l-top-bottom,
+          'leftRight': $space-inset-squish-horizontal-l-left-right
+        )
+      ),
+      'squishVertical': (
+        's': (
+          'topBottom': $space-inset-squish-vertical-s-top-bottom,
+          'leftRight': $space-inset-squish-vertical-s-left-right
+        ),
+        'm': (
+          'topBottom': $space-inset-squish-vertical-m-top-bottom,
+          'leftRight': $space-inset-squish-vertical-m-left-right
+        ),
+        'l': (
+          'topBottom': $space-inset-squish-vertical-l-top-bottom,
+          'leftRight': $space-inset-squish-vertical-l-left-right
+        )
+      )
+    ),
+    'stack': (
+      '3xs': $space-stack-3xs,
+      '2xs': $space-stack-2xs,
+      'xs': $space-stack-xs,
+      's': $space-stack-s,
+      'm': $space-stack-m,
+      'l': $space-stack-l,
+      'xl': $space-stack-xl,
+      '2xl': $space-stack-2xl,
+      '3xl': $space-stack-3xl
+    ),
+    'inline': (
+      '3xs': $space-inline-3xs,
+      '2xs': $space-inline-2xs,
+      'xs': $space-inline-xs,
+      's': $space-inline-s,
+      'm': $space-inline-m,
+      'l': $space-inline-l,
+      'xl': $space-inline-xl,
+      '2xl': $space-inline-2xl,
+      '3xl': $space-inline-3xl
+    )
+  ),
+  'size': (
+    '1': $size-1,
+    '2': $size-2,
+    '3': $size-3,
+    '4': $size-4,
+    '5': $size-5,
+    '6': $size-6,
+    '7': $size-7,
+    '8': $size-8,
+    '9': $size-9,
+    '10': $size-10,
+    'scale': (
+      'base': $size-scale-base
+    )
+  ),
+  'opacity': (
+    '20': $opacity-20,
+    '50': $opacity-50,
+    '70': $opacity-70,
+    '100': $opacity-100,
+    'low': $opacity-low,
+    'medium': $opacity-medium,
+    'high': $opacity-high,
+    'total': $opacity-total
+  ),
+  'borderWidth': (
+    '1': $border-width-1,
+    '2': $border-width-2,
+    '3': $border-width-3,
+    'default': $border-width-default,
+    'medium': $border-width-medium,
+    'large': $border-width-large
+  ),
+  'borderRadius': (
+    '1': $border-radius-1,
+    '2': $border-radius-2,
+    '3': $border-radius-3,
+    '10': $border-radius-10,
+    'scale': (
+      'base': $border-radius-scale-base
+    ),
+    'small': $border-radius-small,
+    'medium': $border-radius-medium,
+    'large': $border-radius-large,
+    'full': $border-radius-full
+  ),
+  'core': (
+    'space': (
+      'mobile': (
+        '1': $core-space-mobile-1,
+        '2': $core-space-mobile-2,
+        '3': $core-space-mobile-3,
+        '4': $core-space-mobile-4,
+        '5': $core-space-mobile-5,
+        '6': $core-space-mobile-6,
+        '7': $core-space-mobile-7,
+        '8': $core-space-mobile-8,
+        '9': $core-space-mobile-9
+      )
+    )
+  ),
+  'component': (
+    'pictogram': (
+      'size': (
+        's': $component-pictogram-size-s,
+        'm': $component-pictogram-size-m,
+        'l': $component-pictogram-size-l
+      )
+    ),
+    'illustration': (
+      'size': (
+        's': $component-illustration-size-s,
+        'm': $component-illustration-size-m,
+        'l': $component-illustration-size-l
+      )
+    ),
+    'checkbox': (
+      'borderRadius': $component-checkbox-border-radius
+    ),
+    'radio': (
+      'borderRadius': $component-radio-border-radius
+    ),
+    'toggle': (
+      'borderRadius': $component-toggle-border-radius
+    ),
+    'icon': (
+      'size': (
+        's': $component-icon-size-s,
+        'm': $component-icon-size-m,
+        'l': $component-icon-size-l
+      )
+    ),
+    'layout': (
+      'pageContent': (
+        'space': (
+          'horizontal': $component-layout-page-content-space-horizontal
+        )
+      )
+    ),
+    'textLink': (
+      'color': (
+        'primary': (
+          'default': $component-text-link-color-primary-default,
+          'hovered': $component-text-link-color-primary-hovered,
+          'focused': $component-text-link-color-primary-focused
+        )
+      )
+    )
+  ),
+  'boxShadow': (
+    'small': (
+      'x': $box-shadow-small-x,
+      'y': $box-shadow-small-y,
+      'blur': $box-shadow-small-blur,
+      'spread': $box-shadow-small-spread,
+      'color': $box-shadow-small-color,
+      'type': $box-shadow-small-type
+    ),
+    'medium': (
+      'x': $box-shadow-medium-x,
+      'y': $box-shadow-medium-y,
+      'blur': $box-shadow-medium-blur,
+      'spread': $box-shadow-medium-spread,
+      'color': $box-shadow-medium-color,
+      'type': $box-shadow-medium-type
+    ),
+    'large': (
+      'x': $box-shadow-large-x,
+      'y': $box-shadow-large-y,
+      'blur': $box-shadow-large-blur,
+      'spread': $box-shadow-large-spread,
+      'color': $box-shadow-large-color,
+      'type': $box-shadow-large-type
+    )
+  )
+);

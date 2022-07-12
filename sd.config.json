@@ -5,9 +5,19 @@
             "transformGroup": "scss",
             "prefix": "",
             "buildPath": "build/scss/",
+            "transforms": ["attribute/cti", "name/cti/kebab", "size/px"],
             "files": [{
                 "destination": "_variables.scss",
-                "format": "scss/variables"
+                "format": "scss/map-deep"
+            }]
+        },
+        "js": {
+            "transformGroup": "js",
+            "prefix": "",
+            "buildPath": "build/js/",
+            "files": [{
+                "destination": "variables.js",
+                "format": "javascript/module-flat"
             }]
         }
     }
